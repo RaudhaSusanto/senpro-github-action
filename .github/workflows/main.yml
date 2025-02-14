@@ -48,7 +48,7 @@ jobs:
                   cd ~/senpro/500044/modul02;
                   git clone https://github.com/RaudhaSusanto/senpro-github-action.git;
                   cd ~/senpro/500044/modul02/senpro-github-action;
-                  echo "Install Package and Build Project";
+                  echo "Install Package and Build Project""
                   npm install;
                   npm run build;
                 } ||
@@ -61,4 +61,3 @@ jobs:
                 npm install;
                 npm run build;
                 }
-    
